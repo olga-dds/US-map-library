@@ -102,7 +102,7 @@ text{
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	#statesvg{
-		width: 940px;
+		width: auto;
 		height: 600px;
 	}
 }
