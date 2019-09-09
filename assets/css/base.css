@@ -1,0 +1,122 @@
+/*-----------------------
+General
+-------------------------*/
+body {
+	color: #333;
+	font-size: 1.125rem;
+	background-color: #2d2d2e;
+
+}
+
+
+/* --------------------------
+US MAP 
+-----------------------------*/
+.bg-dark-map {
+	background-color: #2c2e2e;
+	height: 100vh;
+}
+.map-container{
+	overflow: auto;
+}
+.state{
+	fill: none;
+	stroke: #898d95;
+	stroke-width: 1;
+}
+.state:hover{
+ fill-opacity:0.8;
+}
+#tooltip {   
+	position: absolute;           
+	text-align: left;
+	padding: 10px;             
+	margin: 10px;
+	background: lightsteelblue;   
+	border: 1px;      
+	border-radius: 2px;           
+	pointer-events: auto;         
+}
+#tooltip h4{
+	margin:0;
+	font-size:15px;
+	font-weight: 900;
+	
+}
+#tooltip{
+	background:rgba(0,0,0,0.9);
+	border:1px solid grey;
+	border-radius:5px;
+	font-size:13px;
+	width:auto;
+	color:white;
+	opacity:0;
+	z-index: 99999999999999999;
+	width: 145px
+}
+#tooltip table{
+	table-layout:fixed;
+	margin: 5px 0;
+}
+
+#tooltip .fa-svg{
+	fill: white;
+
+}
+text{
+	font-size: 12px;
+	font-weight: 300;
+	fill: #898d95;
+	/* stroke-width: 0.5; */
+
+}
+.label-DC{
+	display: none
+}
+.zillowoffers,.opendoor,.knock,.offerpad {
+	stroke:white;
+	stroke-width: 1;
+}
+.zillowoffers {
+	fill: #d5595b;	
+}
+.opendoor {
+	fill: #1884e7;
+}
+.knock{
+	fill: #505978;
+}
+.offerpad {
+	fill: #63b196;
+}
+
+.value-opendoor,.value-zillowoffers,.value-knock,.value-offerpad{
+	fill: white;
+ font-size: 10px;
+}
+.legend-labels{
+	fill: white
+}
+.label-state{
+	pointer-events: none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#statesvg{
+		width: 940px;
+		height: 600px;
+	}
+}
+
+@media (min-width: 768px) {
+   
+.font-38 {
+			font-size: 2.125rem;
+	}
+	
+}
+@media (min-width: 992px){
+	#tooltip {             
+		pointer-events: none;   
+		width: auto      
+	}
+}

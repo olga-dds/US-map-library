@@ -1,0 +1,136 @@
+[
+  {
+    "zillowoffers": [
+      {
+        "state": "CO",
+        "value": 12
+      },
+      {
+        "state": "GA",
+        "value": 81
+      },
+      {
+        "state": "NC",
+        "value": 84
+      },
+      {
+        "state": "TX",
+        "value": 99
+      },
+      {
+        "state": "CA",
+        "value": 511
+      },
+   
+      {
+        "state": "IL",
+        "value": 105
+      },
+      {
+        "state": "WI",
+        "value": 60
+      }
+ 
+    ]
+  },
+  {
+    "opendoor": [
+      {
+        "state": "FL",
+        "value": 124
+      },
+      {
+        "state": "OH",
+        "value": 63
+      },
+      {
+        "state": "MT",
+        "value": 24
+      },
+      {
+        "state": "CO",
+        "value": 52
+      },
+      {
+        "state": "NE",
+        "value": 16
+      },
+      {
+        "state": "MS",
+        "value": 312
+      },
+      {
+        "state": "OK",
+        "value": 71
+      }
+    ]
+  },
+  {
+    "offerpad": [
+      {
+        "state": "TX",
+        "value": 12
+      },
+      {
+        "state": "AL",
+        "value": 97
+      },
+      {
+        "state": "NY",
+        "value": 9
+      },
+      {
+        "state": "WY",
+        "value": 74
+      },
+      {
+        "state": "AZ",
+        "value": 157
+      },
+      {
+        "state": "NV",
+        "value": 25
+      },
+      {
+        "state": "MO",
+        "value": 37
+      }
+    ]
+  },
+  {
+    "knock": [
+      {
+        "state": "CO",
+        "value": 10
+      },
+      {
+        "state": "OK",
+        "value": 55
+      },
+      {
+        "state": "GA",
+        "value": 51
+      },
+      {
+        "state": "TX",
+        "value": 12
+      },
+      {
+        "state": "CA",
+        "value": 214
+      },
+      {
+        "state": "ID",
+        "value": 44
+      },
+      {
+        "state": "ND",
+        "value": 23
+      },
+      {
+        "state": "IN",
+        "value": 95
+      }
+    ]
+  }
+]
